@@ -4,8 +4,11 @@ author: "Document Author"
 date: "`r Sys.Date()`"
 output:
   prettydoc::html_pretty:
-    theme: architect
+    theme: leonids
     highlight: github
+    toc: true
+    toc_depth: 2
+    number_sections: true
 ---
 
 ## A New Output Format
